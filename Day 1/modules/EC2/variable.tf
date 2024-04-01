@@ -9,6 +9,11 @@ variable "ami_id" {
   # default = "ami-02d7fd1c2af6eead0"
 }
 
+variable "owner_name" {
+    type = string
+    description = "Enter Owner name for Tagging"
+}
+
 variable "instance_type" {
   description = "Please Enter your Instance Type"
   type = string
@@ -17,8 +22,4 @@ variable "instance_type" {
 variable "Owner_number" {
   description = "Enter Your Contact No."
   type = number
-}
-
-variable "security_groups" {
-  description = "Enter Security Groups Name"
 }
