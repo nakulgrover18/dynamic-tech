@@ -4,3 +4,5 @@ git commit -m "commit message"
 git push
 git pull
 git checkout <branch name>
+git checkout -b <branch name> = to create new branch from local
+git push --set-upstream origin suraj = To push to new branch from local
